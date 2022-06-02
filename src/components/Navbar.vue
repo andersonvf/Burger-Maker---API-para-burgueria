@@ -3,15 +3,15 @@
     <router-link to="/" id="logo-url">
       <img :src="logo" :alt="alt" id="logo">
     </router-link>
-    <router-link to="/">Home</router-link> |
+    <router-link to="/">Home</router-link>
     <router-link to="/pedidos">Pedidos</router-link>
   </div>
 </template>
 
 <script>
 export default {
-name: "Navbar",
-props: ["logo", "alt"]
+  name: "Navbar",
+  props: ["logo", "alt"]
 }
 </script>
 
@@ -32,8 +32,8 @@ props: ["logo", "alt"]
 }
 
 #logo {
-width: 40px;
-height: 40px;
+  width: 40px;
+  height: 40px;
 }
 
 #nav a {
